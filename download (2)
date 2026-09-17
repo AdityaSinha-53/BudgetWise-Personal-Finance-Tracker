@@ -1,0 +1,27 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment / local configuration
+.env
+.env.*
+!.env.example
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# User-uploaded/generated content - keep directories via .gitkeep
+uploads/profile_images/*
+!uploads/profile_images/.gitkeep
+uploads/receipts/*
+!uploads/receipts/.gitkeep
+
+# Local database dumps / backups
+*.sql.bak
+*.dump
